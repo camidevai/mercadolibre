@@ -81,10 +81,10 @@ export default function Home() {
           <div className="empty-state"><span>🔎</span><h3>No encontramos ese producto</h3><p>Prueba con otra palabra o selecciona “Todos”.</p><button type="button" onClick={() => { setQuery(''); setCategory('Todos'); }}>Limpiar filtros</button></div>
         )}
 
-        <aside className="more-deals"><div><span>¿Quieres seguir buscando?</span><h2>Hay muchas más ofertas esperando por ti.</h2></div><a href="https://listado.mercadolibre.cl/computacion/_Container_black-week-agosto-2026" target="_blank" rel="noopener noreferrer sponsored">Explorar más descuentos <ArrowRight size={19} /></a></aside>
+        <aside className="more-deals"><div><span>¿Quieres seguir buscando?</span><h2>Hay muchas más ofertas esperando por ti.</h2></div><a href="https://mercadolibre.com/sec/1gho3HX" target="_blank" rel="noopener noreferrer sponsored">Ver la lista completa <ArrowRight size={19} /></a></aside>
       </section>
 
-      <footer><a className="brand" href="#inicio"><span className="brand-mark">C</span><span>Camidevai <strong>elige</strong></span></a><p>Selección independiente de ofertas. Los precios y la disponibilidad pueden cambiar en Mercado Libre.</p><a href="#inicio">Volver arriba ↑</a></footer>
+      <footer><a className="brand" href="#inicio"><span className="brand-mark">C</span><span>Camidevai <strong>elige</strong></span></a><p>Selección independiente de ofertas con enlaces de afiliada. Puedo recibir una comisión si compras, sin costo adicional para ti. Los precios y la disponibilidad pueden cambiar en Mercado Libre.</p><a href="#inicio">Volver arriba ↑</a></footer>
     </main>
   );
 }
