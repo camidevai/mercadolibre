@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Los mejores descuentos tech elegidos por Camidevai." />
+    <meta property="og:title" content="Camidevai elige" />
+    <meta property="og:description" content="Ofertas tech que valen la pena" />
+    <meta property="og:image" content="/assets/og.png" />
+    <title>Camidevai elige | Ofertas tech</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio"><span class="brand-mark">C</span><span>Camidevai <strong>elige</strong></span></a>
+      <a class="top-link" href="#ofertas">Ver ofertas →</a>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <span class="eyebrow">✦ Selección de Camidevai</span>
+          <h1>Ofertas que sí<br /><em>valen la pena.</em></h1>
+          <p>Reviso, comparo y guardo los mejores descuentos tech para que tú solo elijas tu favorito.</p>
+          <a class="hero-button" href="#ofertas">Encontrar mi oferta →</a>
+          <span class="hero-note">Actualizado con nuevos favoritos ✦</span>
+        </div>
+        <div class="hero-visual">
+          <div class="burst"></div>
+          <span class="sticker sticker-one">¡Hasta 60% OFF!</span>
+          <span class="sticker sticker-two">Elegido para ti ✨</span>
+          <img src="/assets/camidevai-sticker.png" alt="Camidevai señalando las ofertas" />
+        </div>
+      </section>
+
+      <section class="offers" id="ofertas">
+        <div class="section-heading">
+          <div><span class="eyebrow dark">🏷 Precios destacados</span><h2>Encuentra tu próxima compra</h2></div>
+          <p id="result-count">6 ofertas encontradas</p>
+        </div>
+
+        <div class="filter-panel">
+          <label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Busca monitor, teclado, audífonos..." aria-label="Buscar productos" /></label>
+          <div class="category-list" id="categories" aria-label="Filtrar por categoría"></div>
+          <label class="sort-box"><span>↕</span><select id="sort" aria-label="Ordenar productos"><option value="discount">Mayor descuento</option><option value="price-low">Menor precio</option><option value="price-high">Mayor precio</option></select></label>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><span>🔎</span><h3>No encontramos ese producto</h3><p>Prueba con otra palabra o selecciona “Todos”.</p><button id="clear-filters" type="button">Limpiar filtros</button></div>
+
+        <aside class="more-deals"><div><span>¿Quieres seguir buscando?</span><h2>Hay muchas más ofertas esperando por ti.</h2></div><a href="https://mercadolibre.com/sec/1gho3HX" target="_blank" rel="noopener noreferrer sponsored">Ver la lista completa →</a></aside>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#inicio"><span class="brand-mark">C</span><span>Camidevai <strong>elige</strong></span></a><p>Selección independiente de ofertas con enlaces de afiliada. Puedo recibir una comisión si compras, sin costo adicional para ti. Los precios y la disponibilidad pueden cambiar en Mercado Libre.</p><a href="#inicio">Volver arriba ↑</a></footer>
+  </body>
+</html>
