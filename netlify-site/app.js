@@ -58,3 +58,8 @@ search.addEventListener('input', render);
 sort.addEventListener('change', render);
 document.querySelector('#clear-filters').addEventListener('click', () => { search.value=''; activeCategory='Todos'; categoriesNode.querySelectorAll('button').forEach((button,index) => button.classList.toggle('active', index===0)); render(); });
 render();
+
+const offersTrack = document.querySelector('#spotlight-track');
+for (const [selector, direction] of [['.spotlight-prev', -1], ['.spotlight-next', 1]]) {
+ document.querySelector(selector)?.addEventListener('click', () => offersTrack?.scrollBy({left: direction * offersTrack.clientWidth * 0.85, behavior: 'auto'}));
+}
