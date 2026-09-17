@@ -1,0 +1,34 @@
+{
+  "airpods-4-anc": [
+    "https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/121204-airpods-4-anc.png",
+    "png"
+  ],
+  "beats-solo-buds": [
+    "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/solo-buds/pdp/product-carousel/arctic-purple/purple-01-solobuds.jpg",
+    "jpg"
+  ],
+  "airpods-pro-3": [
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-hero-select-202509?wid=800&hei=800&fmt=jpeg&qlt=90",
+    "jpg"
+  ],
+  "airpods-max-2": [
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-max-select-202409-orange?wid=800&hei=800&fmt=jpeg&qlt=90",
+    "jpg"
+  ],
+  "earpods-usb-c": [
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MTJY3?wid=800&hei=800&fmt=jpeg&qlt=90",
+    "jpg"
+  ],
+  "iphone-15-128-azul": [
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/refurb-iphone-15-blue-202412?wid=800&hei=800&fmt=jpeg&qlt=90",
+    "jpg"
+  ],
+  "iphone-16-128-negro": [
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-black-select-202409?wid=800&hei=800&fmt=jpeg&qlt=90",
+    "jpg"
+  ],
+  "iphone-16-128-rosa": [
+    "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-pink-select-202409?wid=800&hei=800&fmt=jpeg&qlt=90",
+    "jpg"
+  ]
+}
