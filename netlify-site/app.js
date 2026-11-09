@@ -1,5 +1,6 @@
 // Para actualizar la vitrina, agrega o modifica los productos de esta lista.
 const products = [
+ ['masterg-20000','Batería externa MasterG 20.000 mAh · 22,5 W USB-C','Cargadores','masterg-illustration.svg','https://meli.la/1YxwePp'],
  ['arzopa','Monitor portátil Arzopa 15,6”','Monitores','arzopa.png','https://meli.la/1hbYQg8'],
  ['caixun','Monitor gamer Caixun 27”','Monitores','caixun.png','https://meli.la/1mbrSsT'],
  ['anker','Hub Anker USB-C 5 en 1','Accesorios','anker.png','https://meli.la/1vBK2KG'],
