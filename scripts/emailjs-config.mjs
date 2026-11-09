@@ -14,7 +14,11 @@ export function readEmailConfig() {
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const config = readEmailConfig();
-  if (!Object.values(config).every(Boolean)) throw new Error('Completa las tres variables VITE_EMAILJS en .env o en el entorno de despliegue.');
+  if (!Object.values(config).every(Boolean)) {
+    console.warn('EmailJS no configurado. La vitrina se publicará; el formulario de servicios seguirá deshabilitado hasta configurar las tres variables VITE_EMAILJS.');
+    fs.writeFileSync(path.join(root, 'netlify-site/emailjs-config.js'), 'window.EMAILJS_CONFIG = null;\n');
+    process.exit(0);
+  }
   fs.writeFileSync(path.join(root, 'netlify-site/emailjs-config.js'), `window.EMAILJS_CONFIG = ${JSON.stringify(config)};\n`);
   console.log('Configuración pública de EmailJS preparada.');
 }
